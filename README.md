@@ -1,0 +1,1 @@
+This is the source code to Youngjae Min's public academic website: https://youngjae-min.github.io/. You are welcome to clone this code for your own personal use, just please attribute the source to the original website or to this repo.
