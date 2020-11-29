@@ -3,105 +3,6 @@
 
 <head>
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-  /* Design Credits: Jon Barron and Abhishek Kar and Saurabh Gupta*/
-  a {
-  color: #1772d0;
-  text-decoration:none;
-  }
-  a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-  }
-  body,td,th {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400
-  }
-  heading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 17px; /* 19 */
-    font-weight: 600 /* 1000 */
-  }
-  strong {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 600 /* 800 */
-  }
-  strongred {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    color: 'red' ;
-    font-size: 16px
-  }
-  sectionheading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: 600
-  }
-  pageheading {
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 38px;
-    font-weight: 400
-  }
-  #navbar_outer {
-    padding: 7px;
-    border: 1px solid #e7e7e7;
-    border-left: none;
-    border-right: none;
-    background-color: white; /*#f3f3f3; */
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    z-index: 999999;
-  }
-  #navbar_tab {
-    display: table;   /* Allow the centering to work */
-    margin: 0 auto;
-  }
-  #navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  #navbar li {
-    float: left;
-  }
-  #navbar li a {
-    display: block;
-    color: black; /*#666;*/
-    text-align: center;
-    padding: 5px;
-    margin: 0 0 0 10px;
-    text-decoration: none;
-    font-weight: 700;
-  }
-  #navbar li a:hover {
-      color: #f09228;
-  }
-  .active {
-      border-bottom: 2px solid #f09228;
-  }
-  .ImageBorder
-  {
-      border-width: 1px;
-      border-color: Black;
-  }
-  .one {
-      position: relative;
-  }
-  .two {
-      position: absolute;
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-  }
-  .default_image {
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-  }
-  </style>
   <link rel="icon" type="image/png" href="images/ironman.ico">
   <!-- <link rel="shortcut icon" href="https://www.cs.cmu.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
   -->
@@ -111,6 +12,7 @@
   
   <title>Youngjae Min</title>
   <meta name="Youngjae's Homepage" http-equiv="Content-Type" content="Youngjae's Homepage">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
 </head>
 
@@ -131,17 +33,17 @@
 
   <tr>
     <td width="32%" valign="top"><a><img src="images/YoungjaeMin.jpg" width="100%" style="border-radius:200px"></a>
-    <p align=center>
+    <!-- <p align=center>
     <a href="data/CV_Youngjae.pdf" target="_blank">CV</a> |
     <a href="https://scholar.google.cl/citations?hl=en&user=oxvFkvEAAAAJ" target="_blank">Google Scholar</a> |
     <a href="https://github.com/youngjae-min" target="_blank">Github</a>
-    </p>
+    </p> -->
     </td>
     <td width="68%" valign="top" align="justify">
     <p>I will be starting my graduate study in the <a href="https://aeroastro.mit.edu/" target="_blank">Dept. of Aeronautics and Astronautics</a> at MIT from Spring 2021. Currently, I am a research scientist in the <a href="https://ae.kaist.ac.kr/index_eng.php" target="_blank">Dept. of Aerospace Engineering</a> at KAIST. I obtained my B.S. (2020) from KAIST in electrical engineering with a double major in mathematics, where I was advised by <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Prof. Han-Lim Choi</a>, <a href="https://iids.kaist.ac.kr/" target="_blank">Prof. Hye Won Chung</a>, and <a href="https://sites.google.com/site/wewantsj/" target="_blank">Prof. Sung-Ju Lee</a>. I was also doing research at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a> under supervision of <a href="https://www.mit.edu/~fadel/" target="_blank">Prof. Fadel Adib</a> during summer 2018.
     </p>
 
-    <p>My current research interests lie in the span of perception, inference, and machine learning in robotics systems: especially, developing theoretically principled algorithms for the efficient use of information in data/systems.
+    <p>My current research interests lie in the span of perception, inference, learning, and decision making in autonomous systems: especially, developing theoretically principled algorithms for the efficient use of information in data/systems.
     </p>
 
     <p>During my undergraduate study, I have fortunately conducted various research projects at KAIST and MIT not only for theoretical works in inference and learning but for building and testing actual sensing systems.
@@ -154,9 +56,11 @@
 <div id="navbar_outer">
 <div id="navbar_tab">
 <ul id="navbar">
-  <li><a class="home_nav active" href="#home">Home</a></li>
-  <li><a class="research_nav" href="#research">Research</a></li>
-  <li><a class="honor_nav" href="#honor">Honors</a></li>
+  <li><a class="home_nav active" href="#home" onclick="make_active('home')">Home</a></li>
+  <li><a class="research_nav" href="#research" onclick="make_active('research')">Research</a></li>
+  <li><a class="honor_nav" href="#honor" onclick="make_active('honor')">Honors</a></li>
+  <li><a href="html/coursework.html">Coursework</a></li>
+  <li><a href="data/CV_Youngjae.pdf" target="_blank">CV</a></li>
 </ul></div></div>
 <br>
 
@@ -165,30 +69,12 @@
   <tr><td>
     <sectionheading>&nbsp;&nbsp;News</sectionheading>
     <ul>
-    <li> I am serving as an Area Chair for NeurIPS 2020, ICLR 2021 and CVPR 2021.</li>
-    <li> Invited talk at <a href="https://embodied-ai.org/" target="_blank">Embodied-AI Workshop</a> @ CVPR 2020 [<a href="https://youtu.be/crxnghFA8Ww" target="_blank">talk video</a>]</li>
-    <li> Invited talk at <a href="https://ocs2020.github.io/" target="_blank">Workshop on the Origins of Commonsense</a> @ CogSci 2020 [<a href="https://youtu.be/Mbw6-WxBWxI" target="_blank">talk video</a>]</li>
-    <li> Invited talk at <a href="https://sslwin.org/" target="_blank">Workshop on Self-Supervised Learning</a> @ ECCV 2020 [<a href="https://youtu.be/fUMpC_hoedA" target="_blank">talk video</a>]</li>
-    <li> <a href="#PLAN2EXPLORE">ICML'20 paper</a> on planning to explore covered in <a href="https://venturebeat.com/2020/05/13/plan2explore-adapts-to-exploration-tasks-without-fine-tuning/" target="_blank">multiple</a> <a href="https://syncedreview.com/2020/05/15/self-supervised-plan2explore-rl-agent-achieves-sota-zero-shot-and-adaptation-performance/" target="_blank">media</a> <a href="https://youtu.be/IiBFqnNu7A8" target="_blank">articles</a>.</li>
-    <li> Received the <a href="https://ai.googleblog.com/2020/02/announcing-2019-google-faculty-research.html" target="_blank"> Google Faculty Research Award</a>. Thanks, Google!</li>
-    <li> <a href="#ASSEMBLIES19">Modular assemblies</a> won the <a href="https://virtualcreatures.github.io/" target="_blank">Virtual Creatures Competition</a> at GECCO'19!<br></li>
-    <a href="javascript:toggleblock('news')">---- show more ----</a>
-    <div id="news" style="display:none">
-    <li> Co-organized the <a href="https://futurecv.github.io/" target="_blank">"Computer Vision After 5 years"</a> workshop at CVPR'19.</li>
-    <li> Co-organized the <a href="https://tarl2019.github.io/" target="_blank">Task Agnostic Reinforcement Learning</a> workshop at ICLR'19.</li>
-    <li> <a href="#ICLR19">ICLR'19 paper</a> on large-scale curiosity-driven learning covered in <a href="https://pathak22.github.io/large-scale-curiosity/index.html#media">The Economist and other media articles</a>.</li>
-    <li> Co-organized the <a href="http://pocv18.eecs.berkeley.edu/">Action, Perception and Organization</a> workshop at ECCV'18.</li>
-    <li> Received the <a href="https://research.fb.com/announcing-the-2018-cohort-of-facebook-fellows-and-emerging-scholars/" target="_blank">2018 Facebook Graduate Fellowship</a>. Thanks, Facebook!</li>
-    <li> <a href="#ICML18">ICML'18 paper</a> on human exploration got covered in <a href="https://rach0012.github.io/humanRL_website/index.html#media">MIT Tech Review and other media articles</a>.</li>
-    <li> Received the <a href="https://snapresearchfellowship.splashthat.com/" target="_blank">2017 Snap Inc. Research Fellowship Award</a>. Thanks, Snapchat!</li>
-    <li> <a href="#ICML17">ICML'17 paper</a> on curiosity-driven exploration got covered in <a href="https://pathak22.github.io/noreward-rl/index.html#media">MIT Tech Review and other media articles</a>.</li>
-    <li> Received the <a href="https://www.nvidia.com/en-us/research/graduate-fellowships/2017/deepak-pathak/" target="_blank">2017 NVIDIA Graduate Fellowship</a>. Thanks, NVIDIA! Complete list <a href="https://www.nvidia.com/en-us/research/graduate-fellowships/" target="_blank">here</a>.</li>
-    </div>
-    <li> Undergrad <a href="#JPM15">paper</a> related to predicting <a href="http://www.huffingtonpost.co.uk/2015/02/23/microsoft-oscar-predictio_n_6735122.html">Oscars</a> published at <a href="http://ubplj.org/index.php/jpm/article/view/1048">JPM</a>. See <a href="#oscarPred">live predictions</a>.</li>
+    <li> newsline.</li>
     </ul>
   </td></tr>
 </table>
 -->
+
 <section class="research" id="research">
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
   <tr><td><sectionheading>&nbsp;&nbsp;Research</sectionheading></td></tr>
@@ -204,21 +90,17 @@
       <img class="default_image" src="images/research/icra21_kdogm.png" alt="sym" width="90%" style="padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border-radius:8px;"></a></td>
     <td width="67%" valign="top">
       <p>
-      <a id="ICRA21_KDOGM">
-      <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-    <heading>Kernel-Based 3-D Dynamic Occupancy Grid Mapping<br>with Particle Tracking</heading></a><br>
+      <heading id="ICRA21_KDOGM">Kernel-Based 3-D Dynamic Occupancy Grid Mapping<br>with Particle Tracking</heading><br>
       <b>Youngjae Min</b>, Do-Un Kim, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
       under review at IEEE ICRA
       </p>
 
       <div class="paper" id="icra21_kdogm">
-      <!-- <a href="https://shikharbahl.github.io/neural-dynamic-policy/">webpage</a> | -->
       <a href="data/ICRA21_preprint.pdf" target="_blank">preprint</a> |
       <a href="javascript:toggleblock('icra21_kdogm_abs')">abstract</a> |
       <!-- <a shape="rect" href="javascript:togglebib('icra21_kdogm')" class="togglebib">bibtex</a> | -->
       <a href="https://github.com/youngjae-min/kdogm/" target="_blank">code</a>
       <!-- <a href="">demo video</a> | -->
-      <!-- <a href="">oral talk</a> -->
 
       <p align="justify"> <i id="icra21_kdogm_abs"> Mapping dynamic and three-dimensional (3-D) environments is essential for robots and UAVs, but also a challenging task to consider the increased dimensions in both space and time compared to 2-D static mapping. This paper presents a kernel-based 3-D dynamic occupancy grid mapping algorithm, called K-DOGM, that distinguishes between static environments and moving objects while estimating the velocities of dynamic grids as well. The proposed algorithm brings the benefits of kernel inference such as its simple computation, consideration of spatial correlation, and natural measure of uncertainty to the domain of dynamic mapping. We formulate the dynamic occupancy grid mapping problem in a Bayesian framework and represent the map through Dirichlet distribution to apply kernel inference in a recursive way with intuitive heuristics. The proposed algorithm demonstrates its promising performance compared to baseline in diverse scenarios simulated in ROS environments. </i></p>
 <!--
@@ -248,21 +130,16 @@
     
     </td>
     <td width="67%" valign="top" style="padding-top:10px">
-      <p><a id="IJCAS_GPSSM">
-      <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-      <heading>Online Gaussian Process State-Space Model: Learning and Planning for Partially Observable Dynamical Systems</heading></a><br>
+      <p>
+      <heading id="IJCAS_GPSSM">Online Gaussian Process State-Space Model: Learning and Planning for Partially Observable Dynamical Systems</heading><br>
       Soon-Seo Park, Young-Jin Park, <b>Youngjae Min</b>, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
       under review at IJCAS <!-- International Journal of Control, Automation and Systems -->
       </p>
 
       <div class="paper" id="ijcas_gpssm">
-      <!-- <a href="https://mishalaskin.github.io/sgm/">webpage</a> | -->
       <a href="https://arxiv.org/pdf/1903.08643.pdf" target="_blank">arXiv</a> |
       <a href="javascript:toggleblock('ijcas_gpssm_abs')">abstract</a>
       <!-- <a shape="rect" href="javascript:togglebib('ijcas_gpssm')" class="togglebib">bibtex</a> -->
-      <!-- <a href="https://arxiv.org/pdf/2003.06417">arXiv</a> | -->
-      <!-- <a href="https://youtu.be/n3F3i7F3Lcg">video</a> | -->
-      <!-- <a href="https://github.com/scottemmons/sgm">code</a> -->
 
       <p align="justify"> <i id="ijcas_gpssm_abs">This paper proposes an online learning method of Gaussian process state-space model (GP-SSM). GPSSM is a probabilistic representation learning scheme that represents unknown state transition and/or measurement models as Gaussian processes (GPs). While the majority of prior literature on learning of GP-SSM are focused on processing a given set of time series data, data may arrive and accumulate sequentially over time in most dynamical systems. Storing all such sequential data and updating the model over entire data incur large amount of computational resources in space and time. To overcome this difficulty, we propose a practical method, termed onlineGPSSM, that incorporates stochastic variational inference (VI) and online VI with novel formulation. The proposed method mitigates the computational complexity without catastrophic forgetting and also support adaptation to changes in a system and/or a real environments. Furthermore, we present application of onlineGPSSM into the reinforcement learning (RL) of partially observable dynamical systems by integrating onlineGPSSM with Bayesian filtering and trajectory optimization algorithms. Numerical examples are presented to demonstrate applicability of the proposed method.</i></p>
 
@@ -281,22 +158,16 @@
       </div>
       <img class="default_image" src="images/research/gnc20_gps.PNG" alt="sym" width="80%" style="border-radius:0px"></a></td>
     <td width="67%" valign="top">
-      <p><a id="GNC20_GPS">
-      <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-      <heading>Informative Planning of Mobile Sensor Networks<br>in GPS-denied Environments</heading></a><br>
+      <p>
+      <heading id="GNC20_GPS">Informative Planning of Mobile Sensor Networks<br>in GPS-denied Environments</heading><br>
       <b>Youngjae Min</b>, Soon-Seo Park, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
       AIAA SciTech GN&C, 2020
       </p>
 
       <div class="paper" id="gnc20_gps">
-      <!-- <a href="https://ramanans1.github.io/plan2explore/">webpage</a> | -->
       <a href="https://arxiv.org/pdf/1909.11046.pdf" target="_blank">arXiv</a> |
       <a href="javascript:toggleblock('gnc20_gps_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('gnc20_gps')" class="togglebib">bibtex</a>
-      <!-- <a href="https://github.com/ramanans1/plan2explore">code</a> |
-      <a href="https://youtu.be/GftqnPWsCWw">video</a> |
-      <a href="https://youtu.be/gan79mAVfq8">oral talk</a> |
-      <a href="https://venturebeat.com/2020/05/13/plan2explore-adapts-to-exploration-tasks-without-fine-tuning" target="_blank">in the media</a> -->
 
       <p align="justify"> <i id="gnc20_gps_abs">This paper considers the problem to plan mobile sensor networks for target localization task in GPS-denied environments. Most researches on mobile sensor networks assume that the states of the sensing agents are precisely known during their missions, which is not feasible under the absence of external infrastructures such as GPS. Thus, we propose a new algorithm to solve this problem by: (i) estimating the states of the sensing agents in addition to the target’s through the combination of a particle filter (PF) and extended Kalman filters (EKF) and (ii) involving the uncertainty of the states of the sensing agents in planning the sensor networks based on the combined filters. This approach does not require any additional internal/external sensors nor the prior knowledge of the surrounding environments. We demonstrate the limitations of prior works in GPS-denied environments and the improvements from the proposed algorithm through Monte Carlo experiments.
       </i></p>
@@ -324,15 +195,13 @@
 	</div>
         <img class="default_image" src="images/research/access_admm.png" alt="sym" width="90%" style="padding-top:10px;padding-bottom:10px;border-radius:15px"></a></td> <!-- ;border:1px solid black" -->
     <td width="67%" valign="top">
-      <p><a id="ACCESS_ADMM">
-      <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-      <heading>A Distributed ADMM Approach to Non-Myopic Path Planning for Multi-Target Tracking</heading></a><br>
+      <p>
+      <heading id="ACCESS_ADMM">A Distributed ADMM Approach to Non-Myopic Path Planning for Multi-Target Tracking</heading><br>
       Soon-Seo Park*, <b>Youngjae Min*</b>, Jung-Su Ha, Doo-Hyun Cho, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a> (*equally contributed)<br>
       IEEE Access, 2019
       </p>
 
       <div class="paper" id="access_admm">
-      <!-- <a href="https://huangwl18.github.io/modular-rl/">webpage</a> | -->
       <a href="https://arxiv.org/pdf/1807.11068.pdf" target="_blank">arXiv</a> |
       <a href="javascript:toggleblock('access_admm_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('access_admm')" class="togglebib">bibtex</a>
@@ -367,15 +236,13 @@
         <img class="default_image" src="images/research/isit19_nn.png" alt="sym" width="90%" style="padding-top:10px;padding-bottom:10px;border-radius:15px">
       </div></td>
     <td width="67%" valign="top" style="padding-top:20px">
-      <p><a id="ISIT19_NN">
-      <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
-      <heading>Shallow Neural Network can Perfectly Classify an Object following Separable Probability Distribution</heading></a><br>
+      <p>
+      <heading id="ISIT19_NN">Shallow Neural Network can Perfectly Classify an Object following Separable Probability Distribution</heading><br>
       <b>Youngjae Min</b>, <a href="https://iids.kaist.ac.kr/" target="_blank">Hye Won Chung</a><br>
       IEEE ISIT, 2019
       </p>
 
       <div class="paper" id="isit19_nn">
-      <!-- <a href="https://ajayjain.github.io/lmconv/">webpage</a> | -->
       <a href="https://arxiv.org/pdf/1904.09109.pdf" target="_blank">arXiv</a> |
       <a href="javascript:toggleblock('isit19_nn_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('isit19_nn')" class="togglebib">bibtex</a> |
@@ -403,8 +270,8 @@
   <tr>
     <td width="33%" valign="center" align="center"><a><img src="images/research/siki_fmcw.PNG" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
-      <p><a id="SIKI_FMCW">
-      <heading>Wireless Sensing of Fine-Grained Vital Signs</heading></a><br>
+      <p>
+      <heading id="SIKI_FMCW">Wireless Sensing of Fine-Grained Vital Signs</heading><br>
       advised by Prof. <a href="https://www.mit.edu/~fadel" target="_blank">Fadel Adib</a><br>
       The sensing system that I had built was used to measure seismocardiography contactlessly in <a href="https://dl.acm.org/doi/10.1145/3372224.3419982" target="_blank">the work</a> in ACM MobiCom'20 (mentioned in acknowledgement)
       </p>
@@ -419,8 +286,8 @@
         </div>
         <img class="default_image" src="images/research/nmsl_wipi.PNG" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
-      <p><a id="NMSL_WIPI">
-      <heading>Indoor Person Localization using Wireless Signal</heading></a><br>
+      <p>
+      <heading id="NMSL_WIPI">Indoor Person Localization using Wireless Signal</heading><br>
       advised by Prof. <a href="https://sites.google.com/site/wewantsj/" target="_blank">Sung-Ju Lee</a><br>
       estimated indoor person location through channel information extracted from commodity Wi-Fi devices<br>
       </p>
@@ -428,21 +295,16 @@
   </tr>
 
   <tr>
-    <!-- <td width="33%" valign="center" align="center"><a><img src="images/research/jksnt_slowness.png" alt="sym" width="65%" border="1" style="border-color:black"><hr style="height:0pt; visibility:hidden; margin:0"/><img src="images/iclr18_2.gif" alt="sym" width="65%" border="1" style="border-color:black"></a></td> -->
     <td width="33%" valign="center" align="center"><a><img src="images/research/jksnt_slowness.png" alt="sym" width="90%" style="border-radius:15px"></a></td> 
     <td width="67%" valign="top">
-      <p><a id="JKSNT_SLOWNESS">
-      <heading>Comparison of Slowness Profiles of Lamb Wave with Elastic Moduli and Crystal Structure in Single Crystalline Silicon Wafers</heading></a><br>
+      <p>
+      <heading id="JKSNT_SLOWNESS">Comparison of Slowness Profiles of Lamb Wave with Elastic Moduli and Crystal Structure in Single Crystalline Silicon Wafers</heading><br>
       <b>Youngjae Min</b>, Gyeongwon Yun, Kyung-Min Kim, Yuji Roh, Young H. Kim<br>
       JKSNT, 2016 <br>
       previously presented in IEEE IUS, 2013
-      <!-- <em>International Conference on Learning Representations (ICLR)</em>, 2018<br> -->
-      <!-- <strong style="color:red">Oral presentation <a href="https://vimeo.com/237270588" target="_blank" style="color:red">[video]</a></strong> -->
-      <!-- <strong style="color:black">(Oral presentation)</strong> -->
       </p>
 
       <div class="paper" id="jksnt_slowness">
-      <!-- <a href="http://pathak22.github.io/zeroshot-imitation/resources/iclr18.pdf">pdf</a> | -->
       <a href="javascript:toggleblock('jksnt_slowness_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('jksnt_slowness')" class="togglebib">bibtex</a>
       <br>
@@ -475,14 +337,13 @@
   <tr>
     <td width="33%" valign="center" align="center"><a><img src="images/research/ius14_friction.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td> 
     <td width="67%" valign="top">
-      <p><a id="IUS14_FRICTION">
-      <heading>Measurements of sliding friction forces under ultrasonic oscillations: out-of-plane oscillations</heading></a><br>
+      <p>
+      <heading id="IUS14_FRICTION">Measurements of sliding friction forces under ultrasonic oscillations: out-of-plane oscillations</heading><br>
       Soohyun Kim, <b>Youngjae Min</b>, Young H. Kim<br>
       IEEE IUS, 2014 <br>
       </p>
 
       <div class="paper" id="ius14_friction">
-      <!-- <a href="http://pathak22.github.io/zeroshot-imitation/resources/iclr18.pdf">pdf</a> | -->
       <a href="javascript:toggleblock('ius14_friction_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('ius14_friction')" class="togglebib">bibtex</a>
       <br>
@@ -509,29 +370,9 @@
 </table>
 </section>
 
-<!--
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
-  <tr><td><sectionheading>&nbsp;&nbsp;Teaching</sectionheading></td></tr>
-</table>
-<table width="100%" align="top" border="0" cellpadding="20">
-  <tr>
-    <td width="32%"><img src="images/cs189.jpg" alt="pacman" width="100%" style="border-radius:15px"></td>
-    <td width="68%" valign="top">
-      <p>
-        <a href="http://www-inst.eecs.berkeley.edu/~cs189/fa15/"><heading>CS189/289: Introduction to Machine Learning - Fall '15 (GSI) </heading></a><br>
-        <strong>Instructor</strong>: Prof. Alexei A. Efros and Dr. Isabelle Guyon<br>
-      </p>
-      <p>
-        <a href="http://www-inst.eecs.berkeley.edu/~cs280/sp16"><heading>CS280: Computer Vision - Spring '16 (GSI)</heading></a><br>
-        <strong>Instructor</strong>: Prof. Trevor Darrell and Prof. Alexei A. Efros<br>
-      </p>
-    </td>
-  </tr>
-</table>
--->
-
 <br>
-<table class="honor" id="honor" width="100%" align="center" border="0" cellpadding="10">
+<section class="honor" id="honor">
+<table width="100%" align="center" border="0" cellpadding="10">
   <tr><td>
     <sectionheading>&nbsp;&nbsp;Honors and Awards</sectionheading>
     <ul>
@@ -543,6 +384,7 @@
     </ul>
   </td></tr>
 </table>
+</section>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="2">
     <tr><td><br><p align="right"><font size="1.5">
@@ -552,6 +394,7 @@
 
   </td></tr>
 </table>
+
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
 </script>

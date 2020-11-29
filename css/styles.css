@@ -1,0 +1,98 @@
+/* Design Credits: Jon Barron and Abhishek Kar and Saurabh Gupta*/
+  a {
+  color: #1772d0;
+  text-decoration:none;
+  }
+  a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+  }
+  body,td,th {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400
+  }
+  heading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 17px; /* 19 */
+    font-weight: 600 /* 1000 */
+  }
+  strong {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600 /* 800 */
+  }
+  strongred {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    color: 'red' ;
+    font-size: 16px
+  }
+  sectionheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600
+  }
+  pageheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 400
+  }
+  #navbar_outer {
+    padding: 7px;
+    border: 1px solid #e7e7e7;
+    border-left: none;
+    border-right: none;
+    background-color: white; /*#f3f3f3; */
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+  }
+  #navbar_tab {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+  }
+  #navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #navbar li {
+    float: left;
+  }
+  #navbar li a {
+    display: block;
+    color: black; /*#666;*/
+    text-align: center;
+    padding: 5px;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  #navbar li a:hover {
+      color: #f09228;
+  }
+  .active {
+      border-bottom: 2px solid #f09228;
+  }
+  .ImageBorder
+  {
+      border-width: 1px;
+      border-color: Black;
+  }
+  .one {
+      position: relative;
+  }
+  .two {
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+  }
+  .default_image {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+  }
+
