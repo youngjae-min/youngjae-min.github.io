@@ -13,11 +13,12 @@
   <title>Youngjae Min</title>
   <meta name="Youngjae's Homepage" http-equiv="Content-Type" content="Youngjae's Homepage">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/narrow_main.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-<table width="840" border="0" align="center" border="0" cellspacing="0" cellpadding="20">
+<table style="width:100%;max-width:840px;" border="0" align="center" border="0" cellspacing="0" cellpadding="20">
   <tr><td>
 
 <section class="home" id="home">
@@ -32,14 +33,14 @@
   </p>
 
   <tr>
-    <td width="32%" valign="top"><a><img src="images/YoungjaeMin.jpg" width="100%" style="border-radius:200px"></a>
+    <td width="32%" valign="middle" align="center"><a><img src="images/YoungjaeMin.jpg" width="100%" style="border-radius:200px"></a>
     <!-- <p align=center>
     <a href="data/CV_Youngjae.pdf" target="_blank">CV</a> |
     <a href="https://scholar.google.cl/citations?hl=en&user=oxvFkvEAAAAJ" target="_blank">Google Scholar</a> |
     <a href="https://github.com/youngjae-min" target="_blank">Github</a>
     </p> -->
     </td>
-    <td width="68%" valign="top" align="justify">
+    <td width="68%" valign="middle" align="justify">
     <p>I will be starting my graduate study in the <a href="https://aeroastro.mit.edu/" target="_blank">Dept. of Aeronautics and Astronautics</a> at MIT from Fall 2021. Currently, I am a research scientist in the <a href="https://ae.kaist.ac.kr/index_eng.php" target="_blank">Dept. of Aerospace Engineering</a> at KAIST. I obtained my B.S. (2020) from KAIST in electrical engineering with a double major in mathematics, where I was advised by <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Prof. Han-Lim Choi</a>, <a href="https://iids.kaist.ac.kr/" target="_blank">Prof. Hye Won Chung</a>, and <a href="https://sites.google.com/site/wewantsj/" target="_blank">Prof. Sung-Ju Lee</a>. I was also doing research at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a> under supervision of <a href="https://www.mit.edu/~fadel/" target="_blank">Prof. Fadel Adib</a> during summer 2018.
     </p>
 
@@ -83,14 +84,14 @@
 
   <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
     <td width="33%" valign="center" align="center">
-      <a class="one">
-        <div class="two" style="opacity:0">
-	   <img src="images/research/icra21_kdogm_after.png" alt="sym" width="90%" style="padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border-radius:8px;">
+      <a class="one" width="100%">
+        <div class="two" width="100%" style="opacity:0">
+	   <img src="images/research/icra21_k3dom_after.png" alt="sym" width="90%" style="padding:2px;border-radius:8px;">
 	</div>
-      <img class="default_image" src="images/research/icra21_kdogm.png" alt="sym" width="90%" style="padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border-radius:8px;"></a></td>
+      <img class="default_image" src="images/research/icra21_k3dom.png" alt="sym" width="90%" style="padding:2px;border-radius:8px;"></a></td>
     <td width="67%" valign="top">
       <p>
-      <heading id="ICRA21_KDOGM">Kernel-Based 3-D Dynamic Occupancy Grid Mapping<br>with Particle Tracking</heading><br>
+      <heading id="ICRA21_KDOGM">Kernel-Based 3-D Dynamic Occupancy Mapping with Particle Tracking</heading><br>
       <b>Youngjae Min</b>, Do-Un Kim, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
       IEEE ICRA, 2021
       </p>
@@ -102,7 +103,7 @@
       <a href="https://github.com/youngjae-min/kdogm/" target="_blank">code</a>
       <!-- <a href="">demo video</a> | -->
 
-      <p align="justify"> <i id="icra21_kdogm_abs"> Mapping dynamic and three-dimensional (3-D) environments is essential for robots and UAVs, but also a challenging task to consider the increased dimensions in both space and time compared to 2-D static mapping. This paper presents a kernel-based 3-D dynamic occupancy grid mapping algorithm, called K-DOGM, that distinguishes between static environments and moving objects while estimating the velocities of dynamic grids as well. The proposed algorithm brings the benefits of kernel inference such as its simple computation, consideration of spatial correlation, and natural measure of uncertainty to the domain of dynamic mapping. We formulate the dynamic occupancy grid mapping problem in a Bayesian framework and represent the map through Dirichlet distribution to apply kernel inference in a recursive way with intuitive heuristics. The proposed algorithm demonstrates its promising performance compared to baseline in diverse scenarios simulated in ROS environments. </i></p>
+      <p align="justify"> <i id="icra21_kdogm_abs"> Mapping dynamic and three-dimensional (3-D) environments is essential for aerial robots but challenging to consider the increased dimensions in both space and time compared to 2-D static mapping. This paper presents a kernel-based 3-D dynamic occupancy mapping algorithm, K3DOM, that distinguishes between static and dynamic objects while estimating the velocities of dynamic cells via particle tracking. The proposed algorithm brings the benefits of kernel inference such as its simple computation, consideration of spatial correlation, and natural measure of uncertainty to the domain of dynamic mapping. We formulate the dynamic occupancy mapping problem in a Bayesian framework and represent the map through Dirichlet distribution to update posteriors in a recursive way with intuitive heuristics. The proposed algorithm demonstrates its promising performance compared to baseline in diverse scenarios simulated in ROS environments. </i></p>
 <!--
 <pre xml:space="preserve">
 @inproceedings{bahl2020ndp,
@@ -120,16 +121,16 @@
   </tr>
 
   <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
-    <td width="33%" valign="center" align="center" style="padding-top:10px">
+    <td width="33%" valign="center" align="center">
     <div class ="one">
       <div class = "two" style="opacity:0">
-        <img src="images/research/ijcas_gpssm_after.png" alt="sym" width="90%" style="padding-top:10px;border-radius:15px">
+        <img src="images/research/ijcas_gpssm_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
       </div>
-      <img class="default_image" src="images/research/ijcas_gpssm.PNG" alt="sym" width="90%" style="padding:10px;border-radius:15px">
+      <img class="default_image" src="images/research/ijcas_gpssm.PNG" alt="sym" width="90%" style="padding:2px;border-radius:15px">
     </div>
     
     </td>
-    <td width="67%" valign="top" style="padding-top:10px">
+    <td width="67%" valign="top">
       <p>
       <heading id="IJCAS_GPSSM">Online Gaussian Process State-Space Model: Learning and Planning for Partially Observable Dynamical Systems</heading><br>
       Soon-Seo Park, Young-Jin Park, <b>Youngjae Min</b>, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
@@ -153,13 +154,13 @@
   <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
     <td width="33%" valign="center" align="center">
       <a class="one">
-      <div class="two" style="opacity:0;padding-left:10px">
-        <img src="images/research/gnc20_gps_after.PNG" alt="sym" width="95%" style="border-radius:0px">
+      <div class="two" style="opacity:0;padding-left:0px">
+        <img src="images/research/gnc20_gps_after.PNG" alt="sym" width="90%" style="padding:2px;border-radius:0px">
       </div>
-      <img class="default_image" src="images/research/gnc20_gps.PNG" alt="sym" width="80%" style="border-radius:0px"></a></td>
+      <img class="default_image" src="images/research/gnc20_gps.PNG" alt="sym" width="90%" style="padding:2px;border-radius:0px"></a></td>
     <td width="67%" valign="top">
       <p>
-      <heading id="GNC20_GPS">Informative Planning of Mobile Sensor Networks<br>in GPS-denied Environments</heading><br>
+      <heading id="GNC20_GPS">Informative Planning of Mobile Sensor Networks in GPS-denied Environments</heading><br>
       <b>Youngjae Min</b>, Soon-Seo Park, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
       AIAA SciTech GN&C, 2020
       </p>
@@ -191,9 +192,9 @@
     <td width="33%" valign="center" align="center">
       <a class="one">
 	<div class="two" style="opacity:0">
-	  <img src="images/research/access_admm_after.PNG" alt="sym" width="90%" style="padding-top:10px;padding-bottom:10px;border-radius:15px">
+	  <img src="images/research/access_admm_after.PNG" alt="sym" width="90%" style="padding:2px;border-radius:15px">
 	</div>
-        <img class="default_image" src="images/research/access_admm.png" alt="sym" width="90%" style="padding-top:10px;padding-bottom:10px;border-radius:15px"></a></td> <!-- ;border:1px solid black" -->
+        <img class="default_image" src="images/research/access_admm.png" alt="sym" width="90%" style="padding:2px;border-radius:15px"></a></td> <!-- ;border:1px solid black" -->
     <td width="67%" valign="top">
       <p>
       <heading id="ACCESS_ADMM">A Distributed ADMM Approach to Non-Myopic Path Planning for Multi-Target Tracking</heading><br>
@@ -228,14 +229,14 @@
   </tr>
 
   <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
-    <td width="33%" valign="center" align="center" style="padding-top:20px">
+    <td width="33%" valign="center" align="center">
       <div class="one">
         <div class="two" style="opacity:0">
-          <img src="images/research/isit19_nn_after.png" alt="sym" width="90%" style="padding-top:10px;padding-bottom:10px;border-radius:15px">
+          <img src="images/research/isit19_nn_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
         </div>
-        <img class="default_image" src="images/research/isit19_nn.png" alt="sym" width="90%" style="padding-top:10px;padding-bottom:10px;border-radius:15px">
+        <img class="default_image" src="images/research/isit19_nn.png" alt="sym" width="90%" style="padding:2px 2px 10px;border-radius:15px">
       </div></td>
-    <td width="67%" valign="top" style="padding-top:20px">
+    <td width="67%" valign="top">
       <p>
       <heading id="ISIT19_NN">Shallow Neural Network can Perfectly Classify an Object following Separable Probability Distribution</heading><br>
       <b>Youngjae Min</b>, <a href="https://iids.kaist.ac.kr/" target="_blank">Hye Won Chung</a><br>
@@ -282,9 +283,9 @@
     <td width="33%" valign="center" align="center">
       <a class="one">
         <div class="two" style="opacity:0">
-          <img src="images/research/nmsl_wipi_after.jpg" alt="sym" width="90%" style="border-radius:15px">
+          <img src="images/research/nmsl_wipi_after.jpg" alt="sym" width="90%" style="padding:2px;border-radius:15px">
         </div>
-        <img class="default_image" src="images/research/nmsl_wipi.PNG" alt="sym" width="90%" style="border-radius:15px"></a></td>
+        <img class="default_image" src="images/research/nmsl_wipi.PNG" alt="sym" width="90%" style="padding:2px;border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p>
       <heading id="NMSL_WIPI">Indoor Person Localization using Wireless Signal</heading><br>

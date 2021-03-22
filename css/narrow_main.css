@@ -1,0 +1,11 @@
+  @media only screen and (max-width:799px) {
+      td {
+          display: table-row;
+          width: 99%;
+      }
+      img {
+          width: 49%;
+          min-width: 299px;
+          align: middle;
+      }
+  }
