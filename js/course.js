@@ -1,5 +1,33 @@
       var course_all = [
         {
+          "institution": "MIT",
+          "course number": "16.413",
+          "course name": "Principles of Autonomy and Decision Making",
+          "grade": "",
+          "syllabus": "",
+          "field": "Theory/Mathematics",
+          "semester": "2021 Fall"
+        },
+        {
+          "institution": "MIT",
+          "course number": "6.255",
+          "course name": "Optimization Methods",
+          "grade": "",
+          "syllabus": "",
+          "field": "Theory/Mathematics",
+          "semester": "2021 Fall"
+        },
+        {
+          "institution": "UC Berkeley",
+          "course number": "Math 113",
+          "course name": "Abstract Algebra",
+          "grade": "A",
+          "syllabus": "",
+          "field": "Theory/Mathematics",
+          "semester": "2014 Summer"
+        },
+        {
+          "institution": "KAIST",
           "course number": "EE201",
           "course name": "Circuit Theory",
           "grade": "A-",
@@ -8,6 +36,7 @@
           "semester": "2014 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE202",
           "course name": "Signals and Systems",
           "grade": "A-",
@@ -16,6 +45,7 @@
           "semester": "2014 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE204",
           "course name": "Electromagnetics",
           "grade": "A+",
@@ -24,6 +54,7 @@
           "semester": "2014 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "EE205",
           "course name": "Data Structures and Algorithms for Electrical Engineering",
           "grade": "A+",
@@ -32,6 +63,7 @@
           "semester": "2014 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "EE209",
           "course name": "Programming Structure for Electrical Engineering",
           "grade": "A0",
@@ -40,6 +72,7 @@
           "semester": "2014 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "EE210",
           "course name": "Probability and Introductory Random Processes",
           "grade": "A+",
@@ -48,6 +81,7 @@
           "semester": "2017 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE211",
           "course name": "Introduction to Physical Electronics",
           "grade": "A+",
@@ -56,6 +90,7 @@
           "semester": "2015 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE303",
           "course name": "Digital System Design",
           "grade": "A+",
@@ -64,6 +99,7 @@
           "semester": "2014 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "EE304",
           "course name": "Electronic Circuits",
           "grade": "A+",
@@ -72,6 +108,7 @@
           "semester": "2014 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "EE305",
           "course name": "Introduction to Electronics Design Lab.",
           "grade": "A+",
@@ -80,6 +117,7 @@
           "semester": "2018 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "EE321",
           "course name": "Communication Engineering",
           "grade": "A+",
@@ -88,6 +126,7 @@
           "semester": "2017 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "CS341",
           "course name": "Introduction to Computer Networks",
           "grade": "A+",
@@ -96,6 +135,7 @@
           "semester": "2017 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "EE403",
           "course name": "Analog Electronic Circuits",
           "grade": "A0",
@@ -104,6 +144,7 @@
           "semester": "2015 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE405",
           "course name": "Electronics Design Lab. - Network of Smart Systems",
           "grade": "A+",
@@ -112,6 +153,7 @@
           "semester": "2017 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE415",
           "course name": "Operating Systems and System Programming for Electrical Engineering",
           "grade": "A+",
@@ -120,6 +162,7 @@
           "semester": "2015 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE523",
           "course name": "Convex Optimization Techniques",
           "grade": "A+",
@@ -128,6 +171,7 @@
           "semester": "2019 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE532",
           "course name": "Introduction to Brain IT",
           "grade": "A0",
@@ -136,6 +180,7 @@
           "semester": "2017 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "EE623",
           "course name": "Information Theory",
           "grade": "A+",
@@ -144,6 +189,7 @@
           "semester": "2017 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS212",
           "course name": "Linear Algebra",
           "grade": "A+",
@@ -152,6 +198,7 @@
           "semester": "2017 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS241",
           "course name": "Analysis I",
           "grade": "A0",
@@ -160,6 +207,7 @@
           "semester": "2018 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS242",
           "course name": "Analysis II",
           "grade": "A+",
@@ -168,6 +216,7 @@
           "semester": "2018 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS311",
           "course name": "Modern Algebra I",
           "grade": "A0",
@@ -176,6 +225,7 @@
           "semester": "2018 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS341",
           "course name": "Complex Variables",
           "grade": "A-",
@@ -184,6 +234,7 @@
           "semester": "2019 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS350",
           "course name": "Elementary Probability Theory",
           "grade": "A-",
@@ -192,6 +243,7 @@
           "semester": "2018 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS355",
           "course name": "Mathematical Statistics",
           "grade": "A0",
@@ -200,6 +252,7 @@
           "semester": "2017 Fall"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS365",
           "course name": "Introduction to Numerical Analysis",
           "grade": "B+",
@@ -208,6 +261,7 @@
           "semester": "2019 Spring"
         },
         {
+          "institution": "KAIST",
           "course number": "MAS442",
           "course name": "Fourier Analysis and Applications",
           "grade": "A0",
@@ -216,9 +270,9 @@
           "semester": "2018 Fall"
         }
       ];
-      var tblHd = "<tr><th width='10%'>Course #</th><th width='50%'>Course Name</th><th width='10%'>Link</th></tr>";
+      var tblHd = "<tr><th width='8%'>Inst.</th><th width='8%'>Course #</th><th width='45%'>Course Name</th><th width='10%'>Link</th></tr>";
       function emptytable() {
-        for (var k=1; k<=9; k++) {
+        for (var k=1; k<=11; k++) {
           $("#table"+k+" tr").remove();
           $("#table"+k+" caption").remove();
         }
@@ -229,8 +283,10 @@
         $(tblHd).prependTo("#table1");
         var tblRow;
         $.each(course_all,function(i,course) {
-          if (course["course number"].slice(0,2) == "EE" || course["course number"].slice(0,2) == "CS") {
-            tblRow =  "<tr class='course_row'><td>" + course["course number"] +
+          if (course["course number"].slice(0,2) == "EE" || course["course number"].slice(0,2) == "CS" ||
+              course["course number"].slice(0,2) == "6." || course["course number"].slice(0,3) == "16.") {
+            tblRow =  "<tr class='course_row'><td>" + course["institution"] +
+                      "</td><td>" + course["course number"] +
                       "</td><td>" + course["course name"] +
                       //"</td><td>" + course.grade +
                       "</td><td><a target='_blank' href='"+course.syllabus+"'>[syllabus]</a></td></tr>";
@@ -240,8 +296,9 @@
         $("#table2").append("<caption> &#9656; Math. Department</caption>");
         $(tblHd).prependTo("#table2");
         $.each(course_all,function(i,course) {
-          if (course["course number"].slice(0,3) == "MAS") {
-            tblRow =  "<tr class='course_row'><td>" + course["course number"] +
+          if (course["course number"].slice(0,3) == "MAS" || course["course number"].slice(0,4) == "Math") {
+            tblRow =  "<tr class='course_row'><td>" + course["institution"] +
+                      "</td><td>" + course["course number"] +
                       "</td><td>" + course["course name"] +
                       //"</td><td>" + course.grade +
                       "</td><td><a target='_blank' href='"+course.syllabus+"'>[syllabus]</a></td></tr>";
@@ -258,7 +315,8 @@
           $(tblHd).prependTo("#table"+k);
           $.each(course_all,function(i,course) {
             if (course["field"] == fields[k-1]) {
-              tblRow =  "<tr class='course_row'><td>" + course["course number"] +
+              tblRow =  "<tr class='course_row'><td>" + course["institution"] +
+                        "</td><td>" + course["course number"] +
                         "</td><td>" + course["course name"] +
                         //"</td><td>" + course.grade +
                         "</td><td><a target='_blank' href='"+course.syllabus+"'>[syllabus]</a></td></tr>";
@@ -269,13 +327,14 @@
       }
       function ordersem() {
         emptytable();
-        var semesters = ["2014 Spring", "2014 Fall", "2015 Spring", "2017 Spring", "2017 Fall", "2018 Spring", "2018 Fall", "2019 Spring"];
+        var semesters = ["2014 Spring", "2014 Summer", "2014 Fall", "2015 Spring", "2017 Spring", "2017 Fall", "2018 Spring", "2018 Fall", "2019 Spring", "2021 Fall"];
         for (var k=1; k<=semesters.length; k++) {
-          $("#table"+k).append("<caption> &#9656; "+semesters[k-1]+"</caption>");
+          $("#table"+k).append("<caption> &#9656; "+semesters[semesters.length-k]+"</caption>");
           $(tblHd).prependTo("#table"+k);
           $.each(course_all,function(i,course) {
-            if (course["semester"] == semesters[k-1]) {
-              tblRow =  "<tr class='course_row'><td>" + course["course number"] +
+            if (course["semester"] == semesters[semesters.length-k]) {
+              tblRow =  "<tr class='course_row'><td>" + course["institution"] +
+                        "</td><td>" + course["course number"] +
                         "</td><td>" + course["course name"] +
                         //"</td><td>" + course.grade +
                         "</td><td><a target='_blank' href='"+course.syllabus+"'>[syllabus]</a></td></tr>";
