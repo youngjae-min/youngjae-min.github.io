@@ -83,6 +83,39 @@ My research interests lie in the span of machine learning, optimization, and aut
 
   <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
     <td width="33%" valign="center" align="center">
+    <div class ="one">
+      <div class = "two" style="opacity:0">
+        <img src="images/research/ijcas_gpssm_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+      </div>
+      <img class="default_image" src="images/research/ijcas_gpssm.PNG" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+    </div>
+    
+    </td>
+    <td width="67%" valign="top">
+      <p>
+      <heading id="IJCAS_GPSSM">Online Gaussian Process State-Space Model: Learning and Planning for Partially Observable Dynamical Systems</heading><br>
+      Soon-Seo Park, Young-Jin Park, <b>Youngjae Min</b>, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
+      International Journal of Control, Automation and Systems, 2022
+      </p>
+
+      <div class="paper" id="ijcas_gpssm">
+      <a href="https://arxiv.org/pdf/1903.08643.pdf" target="_blank">arXiv</a> |
+      <a href="javascript:toggleblock('ijcas_gpssm_abs')">abstract</a>
+      <!-- <a shape="rect" href="javascript:togglebib('ijcas_gpssm')" class="togglebib">bibtex</a> -->
+
+      <p align="justify"> <i id="ijcas_gpssm_abs">This paper proposes an online learning method of Gaussian process state-space model (GP-SSM). GPSSM is a probabilistic representation learning scheme that represents unknown state transition and/or measurement models as Gaussian processes (GPs). While the majority of prior literature on learning of GP-SSM are focused on processing a given set of time series data, data may arrive and accumulate sequentially over time in most dynamical systems. Storing all such sequential data and updating the model over entire data incur large amount of computational resources in space and time. To overcome this difficulty, we propose a practical method, termed onlineGPSSM, that incorporates stochastic variational inference (VI) and online VI with novel formulation. The proposed method mitigates the computational complexity without catastrophic forgetting and also support adaptation to changes in a system and/or a real environments. Furthermore, we present application of onlineGPSSM into the reinforcement learning (RL) of partially observable dynamical systems by integrating onlineGPSSM with Bayesian filtering and trajectory optimization algorithms. Numerical examples are presented to demonstrate applicability of the proposed method.</i></p>
+
+<!--
+<pre xml:space="preserve">
+
+</pre>
+-->
+      </div>
+    </td>
+  </tr>
+
+  <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
+    <td width="33%" valign="center" align="center">
       <a class="one" width="100%">
         <div class="two" width="100%" style="opacity:0">
 	   <img src="images/research/icra21_k3dom_after.png" alt="sym" width="90%" style="padding:2px;border-radius:8px;">
@@ -98,53 +131,26 @@ My research interests lie in the span of machine learning, optimization, and aut
       <div class="paper" id="icra21_kdogm">
       <a href="data/ICRA21_preprint.pdf" target="_blank">preprint</a> |
       <a href="javascript:toggleblock('icra21_kdogm_abs')">abstract</a> |
-      <!-- <a shape="rect" href="javascript:togglebib('icra21_kdogm')" class="togglebib">bibtex</a> | -->
+      <a shape="rect" href="javascript:togglebib('icra21_kdogm')" class="togglebib">bibtex</a> |
       <a href="https://github.com/youngjae-min/k3dom/" target="_blank">code</a>
       <!-- <a href="">demo video</a> | -->
 
       <p align="justify"> <i id="icra21_kdogm_abs"> Mapping dynamic and three-dimensional (3-D) environments is essential for aerial robots but challenging to consider the increased dimensions in both space and time compared to 2-D static mapping. This paper presents a kernel-based 3-D dynamic occupancy mapping algorithm, K3DOM, that distinguishes between static and dynamic objects while estimating the velocities of dynamic cells via particle tracking. The proposed algorithm brings the benefits of kernel inference such as its simple computation, consideration of spatial correlation, and natural measure of uncertainty to the domain of dynamic mapping. We formulate the dynamic occupancy mapping problem in a Bayesian framework and represent the map through Dirichlet distribution to update posteriors in a recursive way with intuitive heuristics. The proposed algorithm demonstrates its promising performance compared to baseline in diverse scenarios simulated in ROS environments. </i></p>
-<!--
+
 <pre xml:space="preserve">
-@inproceedings{bahl2020ndp,
-  Author = {Bahl, Shikhar and
-  Mukadam, Mustafa and
-  Gupta, Abhinav and Pathak, Deepak},
-  Title = {Neural Dynamic Policies
-  for End-to-End Sensorimotor Learning},
-  Booktitle = {NeurIPS},
-  Year = {2020}
+@inproceedings{min2021kernel,
+  title={Kernel-Based 3-D Dynamic 
+  Occupancy Mapping with 
+  Particle Tracking},
+  author={Min, Youngjae and 
+  Kim, Do-Un and Choi, Han-Lim},
+  booktitle={2021 IEEE International 
+  Conference on Robotics 
+  and Automation (ICRA)},
+  pages={5268--5274},
+  year={2021},
+  organization={IEEE}
 }
-</pre> -->
-      </div>
-    </td>
-  </tr>
-
-  <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
-    <td width="33%" valign="center" align="center">
-    <div class ="one">
-      <div class = "two" style="opacity:0">
-        <img src="images/research/ijcas_gpssm_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
-      </div>
-      <img class="default_image" src="images/research/ijcas_gpssm.PNG" alt="sym" width="90%" style="padding:2px;border-radius:15px">
-    </div>
-    
-    </td>
-    <td width="67%" valign="top">
-      <p>
-      <heading id="IJCAS_GPSSM">Online Gaussian Process State-Space Model: Learning and Planning for Partially Observable Dynamical Systems</heading><br>
-      Soon-Seo Park, Young-Jin Park, <b>Youngjae Min</b>, <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a><br>
-      International Journal of Control, Automation and Systems, 2021
-      </p>
-
-      <div class="paper" id="ijcas_gpssm">
-      <a href="https://arxiv.org/pdf/1903.08643.pdf" target="_blank">arXiv</a> |
-      <a href="javascript:toggleblock('ijcas_gpssm_abs')">abstract</a>
-      <!-- <a shape="rect" href="javascript:togglebib('ijcas_gpssm')" class="togglebib">bibtex</a> -->
-
-      <p align="justify"> <i id="ijcas_gpssm_abs">This paper proposes an online learning method of Gaussian process state-space model (GP-SSM). GPSSM is a probabilistic representation learning scheme that represents unknown state transition and/or measurement models as Gaussian processes (GPs). While the majority of prior literature on learning of GP-SSM are focused on processing a given set of time series data, data may arrive and accumulate sequentially over time in most dynamical systems. Storing all such sequential data and updating the model over entire data incur large amount of computational resources in space and time. To overcome this difficulty, we propose a practical method, termed onlineGPSSM, that incorporates stochastic variational inference (VI) and online VI with novel formulation. The proposed method mitigates the computational complexity without catastrophic forgetting and also support adaptation to changes in a system and/or a real environments. Furthermore, we present application of onlineGPSSM into the reinforcement learning (RL) of partially observable dynamical systems by integrating onlineGPSSM with Bayesian filtering and trajectory optimization algorithms. Numerical examples are presented to demonstrate applicability of the proposed method.</i></p>
-
-<pre xml:space="preserve">
-
 </pre>
       </div>
     </td>
@@ -169,7 +175,7 @@ My research interests lie in the span of machine learning, optimization, and aut
       <a href="javascript:toggleblock('gnc20_gps_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('gnc20_gps')" class="togglebib">bibtex</a>
 
-      <p align="justify"> <i id="gnc20_gps_abs">This paper considers the problem to plan mobile sensor networks for target localization task in GPS-denied environments. Most researches on mobile sensor networks assume that the states of the sensing agents are precisely known during their missions, which is not feasible under the absence of external infrastructures such as GPS. Thus, we propose a new algorithm to solve this problem by: (i) estimating the states of the sensing agents in addition to the targetâ€™s through the combination of a particle filter (PF) and extended Kalman filters (EKF) and (ii) involving the uncertainty of the states of the sensing agents in planning the sensor networks based on the combined filters. This approach does not require any additional internal/external sensors nor the prior knowledge of the surrounding environments. We demonstrate the limitations of prior works in GPS-denied environments and the improvements from the proposed algorithm through Monte Carlo experiments.
+      <p align="justify"> <i id="gnc20_gps_abs">This paper considers the problem to plan mobile sensor networks for target localization task in GPS-denied environments. Most researches on mobile sensor networks assume that the states of the sensing agents are precisely known during their missions, which is not feasible under the absence of external infrastructures such as GPS. Thus, we propose a new algorithm to solve this problem by: (i) estimating the states of the sensing agents in addition to the target?™s through the combination of a particle filter (PF) and extended Kalman filters (EKF) and (ii) involving the uncertainty of the states of the sensing agents in planning the sensor networks based on the combined filters. This approach does not require any additional internal/external sensors nor the prior knowledge of the surrounding environments. We demonstrate the limitations of prior works in GPS-denied environments and the improvements from the proposed algorithm through Monte Carlo experiments.
       </i></p>
 
 <pre xml:space="preserve">
