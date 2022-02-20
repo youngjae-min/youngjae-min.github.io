@@ -1,18 +1,36 @@
       var course_all = [
         {
           "institution": "MIT",
-          "course number": "16.413",
-          "course name": "Principles of Autonomy and Decision Making",
+          "course number": "6.252",
+          "course name": "Nonlinear Optimization",
           "grade": "",
+          "syllabus": "",
+          "field": "Theory/Mathematics",
+          "semester": "2022 Spring"
+        },
+        {
+          "institution": "MIT",
+          "course number": "6.255",
+          "course name": "Optimization Methods",
+          "grade": "A",
           "syllabus": "",
           "field": "Theory/Mathematics",
           "semester": "2021 Fall"
         },
         {
           "institution": "MIT",
-          "course number": "6.255",
-          "course name": "Optimization Methods",
+          "course number": "16.32",
+          "course name": "Optimal Control and Estimation",
           "grade": "",
+          "syllabus": "",
+          "field": "Theory/Mathematics",
+          "semester": "2022 Spring"
+        },
+        {
+          "institution": "MIT",
+          "course number": "16.413",
+          "course name": "Principles of Autonomy and Decision Making",
+          "grade": "A",
           "syllabus": "",
           "field": "Theory/Mathematics",
           "semester": "2021 Fall"
