@@ -345,7 +345,7 @@
       }
       function ordersem() {
         emptytable();
-        var semesters = ["2014 Spring", "2014 Summer", "2014 Fall", "2015 Spring", "2017 Spring", "2017 Fall", "2018 Spring", "2018 Fall", "2019 Spring", "2021 Fall"];
+        var semesters = ["2014 Spring", "2014 Summer", "2014 Fall", "2015 Spring", "2017 Spring", "2017 Fall", "2018 Spring", "2018 Fall", "2019 Spring", "2021 Fall", "2022 Spring"];
         for (var k=1; k<=semesters.length; k++) {
           $("#table"+k).append("<caption> &#9656; "+semesters[semesters.length-k]+"</caption>");
           $(tblHd).prependTo("#table"+k);

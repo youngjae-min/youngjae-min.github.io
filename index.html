@@ -41,7 +41,7 @@
     </p> -->
     </td>
     <td width="68%" valign="middle" align="justify">
-    <p>I am a graduate student at <a href="https://lids.mit.edu/" target="_blank">MIT LIDS</a>, advised by <a href="" target="_blank">Navid Azizan</a>. I received my undergraduate degree in Electrical Engineering and Mathematical Sciences from KAIST, where I worked with <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a>, <a href="https://iids.kaist.ac.kr/" target="_blank">Hye Won Chung</a>, and <a href="https://sites.google.com/site/wewantsj/" target="_blank">Sung-Ju Lee</a>. I also did a research internship hosted by <a href="https://www.mit.edu/~fadel/" target="_blank">Fadel Adib</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a> during summer 2018.
+    <p>I am a graduate student at <a href="https://lids.mit.edu/" target="_blank">MIT LIDS</a>, advised by <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a>. I received my undergraduate degree in Electrical Engineering and Mathematical Sciences from KAIST, where I worked with <a href="http://lics.kaist.ac.kr/professor/" target="_blank">Han-Lim Choi</a>, <a href="https://iids.kaist.ac.kr/" target="_blank">Hye Won Chung</a>, and <a href="https://sites.google.com/site/wewantsj/" target="_blank">Sung-Ju Lee</a>. I also did a research internship hosted by <a href="https://www.mit.edu/~fadel/" target="_blank">Fadel Adib</a> at <a href="https://www.media.mit.edu/" target="_blank">MIT Media Lab</a> during summer 2018.
 My research interests lie in the span of machine learning, optimization, and autonomy.
 <!--I am interested in developing algorithms that are both practical and theoretically principled. -->
     </p>
@@ -85,6 +85,38 @@ My research interests lie in the span of machine learning, optimization, and aut
     <td width="33%" valign="center" align="center">
     <div class ="one">
       <div class = "two" style="opacity:0">
+        <img src="images/research/cdc22_orfit.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+      </div>
+      <img class="default_image" src="images/research/cdc22_orfit.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+    </div>
+    
+    </td>
+    <td width="67%" valign="top">
+      <p>
+      <heading id="CDC22_ORFIT">One-Pass Learning via Bridging Orthogonal Gradient Descent and Recursive Least-Squares</heading><br>
+      <b>Youngjae Min</b>, <a href="https://kjahn.mit.edu/" target="_blank">Kwangjun Ahn</a>, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
+      IEEE CDC, 2022 (<b>Invited Session</b>)
+      </p>
+
+      <div class="paper" id="cdc22_orfit">
+      <a href="https://arxiv.org/pdf/2207.13853.pdf" target="_blank">arXiv</a> |
+      <a href="javascript:toggleblock('cdc22_orfit_abs')">abstract</a> <!--
+      <a shape="rect" href="javascript:togglebib('cdc22_orfit')" class="togglebib">bibtex</a>-->
+
+      <p align="justify"> <i id="cdc22_orfit_abs">While deep neural networks are capable of achieving state-of-the-art performance in various domains, their training typically requires iterating for many passes over the dataset. However, due to computational and memory constraints and potential privacy concerns, storing and accessing all the data is impractical in many real-world scenarios where the data arrives in a stream. In this paper, we investigate the problem of one-pass learning, in which a model is trained on sequentially arriving data without retraining on previous datapoints. Motivated by the increasing use of overparameterized models, we develop Orthogonal Recursive Fitting (ORFit), an algorithm for one-pass learning which seeks to perfectly fit every new datapoint while changing the parameters in a direction that causes the least change to the predictions on previous datapoints. By doing so, we bridge two seemingly distinct algorithms in adaptive filtering and machine learning, namely the recursive least-squares (RLS) algorithm and orthogonal gradient descent (OGD). Our algorithm uses the memory efficiently by exploiting the structure of the streaming data via an incremental principal component analysis (IPCA). Further, we show that, for overparameterized linear models, the parameter vector obtained by our algorithm is what stochastic gradient descent (SGD) would converge to in the standard multi-pass setting. Finally, we generalize the results to the nonlinear setting for highly overparameterized models, relevant for deep learning. Our experiments show the effectiveness of the proposed method compared to the baselines.</i></p>
+
+<!--
+<pre xml:space="preserve">
+</pre>
+-->
+      </div>
+    </td>
+  </tr>
+
+  <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
+    <td width="33%" valign="center" align="center">
+    <div class ="one">
+      <div class = "two" style="opacity:0">
         <img src="images/research/ijcas_gpssm_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
       </div>
       <img class="default_image" src="images/research/ijcas_gpssm.PNG" alt="sym" width="90%" style="padding:2px;border-radius:15px">
@@ -100,16 +132,31 @@ My research interests lie in the span of machine learning, optimization, and aut
 
       <div class="paper" id="ijcas_gpssm">
       <a href="https://arxiv.org/pdf/1903.08643.pdf" target="_blank">arXiv</a> |
-      <a href="javascript:toggleblock('ijcas_gpssm_abs')">abstract</a>
-      <!-- <a shape="rect" href="javascript:togglebib('ijcas_gpssm')" class="togglebib">bibtex</a> -->
+      <a href="javascript:toggleblock('ijcas_gpssm_abs')">abstract</a>  |
+      <a shape="rect" href="javascript:togglebib('ijcas_gpssm')" class="togglebib">bibtex</a>
 
       <p align="justify"> <i id="ijcas_gpssm_abs">This paper proposes an online learning method of Gaussian process state-space model (GP-SSM). GPSSM is a probabilistic representation learning scheme that represents unknown state transition and/or measurement models as Gaussian processes (GPs). While the majority of prior literature on learning of GP-SSM are focused on processing a given set of time series data, data may arrive and accumulate sequentially over time in most dynamical systems. Storing all such sequential data and updating the model over entire data incur large amount of computational resources in space and time. To overcome this difficulty, we propose a practical method, termed onlineGPSSM, that incorporates stochastic variational inference (VI) and online VI with novel formulation. The proposed method mitigates the computational complexity without catastrophic forgetting and also support adaptation to changes in a system and/or a real environments. Furthermore, we present application of onlineGPSSM into the reinforcement learning (RL) of partially observable dynamical systems by integrating onlineGPSSM with Bayesian filtering and trajectory optimization algorithms. Numerical examples are presented to demonstrate applicability of the proposed method.</i></p>
 
-<!--
-<pre xml:space="preserve">
 
+<pre xml:space="preserve">
+@article{park2022online,
+  title={Online Gaussian Process 
+  State-Space Model: Learning 
+  and Planning for Partially 
+  Observable Dynamical Systems},
+  author={Park, Soon-Seo and 
+  Park, Young-Jin and 
+  Min, Youngjae and Choi, Han-Lim},
+  journal={International Journal 
+  of Control, Automation and Systems},
+  volume={20},
+  number={2},
+  pages={601--617},
+  year={2022},
+  publisher={Springer}
+}
 </pre>
--->
+
       </div>
     </td>
   </tr>
@@ -403,6 +450,9 @@ My research interests lie in the span of machine learning, optimization, and aut
 
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('cdc22_orfit_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('icra21_kdogm_abs');
