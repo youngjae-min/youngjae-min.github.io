@@ -1,12 +1,21 @@
       var course_all = [
         {
           "institution": "MIT",
-          "course number": "6.252",
-          "course name": "Nonlinear Optimization",
-          "grade": "",
+          "course number": "6.7900",
+          "course name": "Machine Learning",
+          "grade": "A",
           "syllabus": "",
           "field": "Theory/Mathematics",
-          "semester": "2022 Spring"
+          "semester": "Master's"
+        },
+        {
+          "institution": "MIT",
+          "course number": "6.252",
+          "course name": "Nonlinear Optimization",
+          "grade": "A",
+          "syllabus": "",
+          "field": "Theory/Mathematics",
+          "semester": "Master's"
         },
         {
           "institution": "MIT",
@@ -15,16 +24,16 @@
           "grade": "A",
           "syllabus": "",
           "field": "Theory/Mathematics",
-          "semester": "2021 Fall"
+          "semester": "Master's"
         },
         {
           "institution": "MIT",
           "course number": "16.32",
           "course name": "Optimal Control and Estimation",
-          "grade": "",
+          "grade": "A",
           "syllabus": "",
           "field": "Theory/Mathematics",
-          "semester": "2022 Spring"
+          "semester": "Master's"
         },
         {
           "institution": "MIT",
@@ -33,7 +42,7 @@
           "grade": "A",
           "syllabus": "",
           "field": "Theory/Mathematics",
-          "semester": "2021 Fall"
+          "semester": "Master's"
         },
         {
           "institution": "UC Berkeley",
@@ -345,7 +354,7 @@
       }
       function ordersem() {
         emptytable();
-        var semesters = ["2014 Spring", "2014 Summer", "2014 Fall", "2015 Spring", "2017 Spring", "2017 Fall", "2018 Spring", "2018 Fall", "2019 Spring", "2021 Fall", "2022 Spring"];
+        var semesters = ["2014 Spring", "2014 Summer", "2014 Fall", "2015 Spring", "2017 Spring", "2017 Fall", "2018 Spring", "2018 Fall", "2019 Spring", "Master's"];
         for (var k=1; k<=semesters.length; k++) {
           $("#table"+k).append("<caption> &#9656; "+semesters[semesters.length-k]+"</caption>");
           $(tblHd).prependTo("#table"+k);
