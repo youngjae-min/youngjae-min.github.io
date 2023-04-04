@@ -85,25 +85,25 @@ My research interests lie in the span of machine learning, optimization, and aut
     <td width="33%" valign="center" align="center">
     <div class ="one">
       <div class = "two" style="opacity:0">
-        <img src="images/research/icml23_lyap_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+        <img src="images/research/cdc23_coils_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
       </div>
-      <img class="default_image" src="images/research/icml23_lyap.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+      <img class="default_image" src="images/research/cdc23_coils.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
     </div>
     
     </td>
     <td width="67%" valign="top">
       <p>
-      <heading id="ICML23_LYAP">Learning Lyapunov Control of Unknown Dynamical Systems with Inherent Stability</heading><br>
-      <b>Youngjae Min</b>, Spencer M. Richards, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
+      <heading id="CDC23_COILS">Data-Driven Control with Inherent Lyapunov Stability</heading><br>
+      <b>Youngjae Min</b>, <a href="https://stanfordasl.github.io//people/spencer-richards/" target="_blank">Spencer M. Richards</a>, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
       preprint
       </p>
 
-      <div class="paper" id="icml23_lyap">
-      <!--<a href="https://arxiv.org/pdf/2207.13853.pdf" target="_blank">arXiv</a> |-->
-      <a href="javascript:toggleblock('icml23_lyap_abs')">abstract</a><!--
-      <a shape="rect" href="javascript:togglebib('icml23_lyap')" class="togglebib">bibtex</a>-->
+      <div class="paper" id="cdc23_coils">
+      <a href="https://arxiv.org/pdf/2303.03157.pdf" target="_blank">arXiv</a> |
+      <a href="javascript:toggleblock('cdc23_coils_abs')">abstract</a><!--
+      <a shape="rect" href="javascript:togglebib('cdc23_coils')" class="togglebib">bibtex</a>-->
 
-      <p align="justify"> <i id="icml23_lyap_abs">Recent advances in learning-based control leverage deep function approximators, such as neural networks, to model the evolution of controlled dynamical systems over time. However, the problem of learning a dynamics model and a stabilizing controller persists, since the synthesis of a stabilizing feedback law for known nonlinear systems is a difficult task, let alone for complex parametric representations that must be fit to data. To this end, in this paper, we propose a method for jointly learning parametric representations of a nonlinear dynamics model and a stabilizing controller from data. To do this, our approach also simultaneously learns a parametric Lyapunov function, which is used with the learned controller to construct a stable closed-loop dynamics model onto which the learned dynamics model is projected while being fit to data. This guarantees that the projected learned dynamics are stabilizable by the learned controller. We also show that the learned controller stabilizes the true dynamics under certain assumptions on the fidelity of the learned dynamics. Finally, we demonstrate the efficacy of our method on a variety of simulated nonlinear dynamical systems.</i></p>
+      <p align="justify"> <i id="cdc23_coils_abs">Recent advances in learning-based control leverage deep function approximators, such as neural networks, to model the evolution of controlled dynamical systems over time. However, the problem of learning a dynamics model and a stabilizing controller persists, since the synthesis of a stabilizing feedback law for known nonlinear systems is a difficult task, let alone for complex parametric representations that must be fit to data. To this end, we propose Control with Inherent Lyapunov Stability (CoILS), a method for jointly learning parametric representations of a nonlinear dynamics model and a stabilizing controller from data. To do this, our approach simultaneously learns a parametric Lyapunov function which intrinsically constrains the dynamics model to be stabilizable by the learned controller. In addition to the stabilizability of the learned dynamics guaranteed by our novel construction, we show that the learned controller stabilizes the true dynamics under certain assumptions on the fidelity of the learned dynamics. Finally, we demonstrate the efficacy of CoILS on a variety of simulated nonlinear dynamical systems.</i></p>
 
 <!--
 <pre xml:space="preserve">
@@ -126,7 +126,7 @@ My research interests lie in the span of machine learning, optimization, and aut
     <td width="67%" valign="top">
       <p>
       <heading id="ICML23_SOGD">SketchOGD: Memory-Efficient Continual Learning</heading><br>
-      Benjamin Wright, <b>Youngjae Min</b>, Jeremy Bernstein, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
+      Benjamin Wright, <b>Youngjae Min</b>, <a href="https://jeremybernste.in/" target="_blank">Jeremy Bernstein</a>, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
       preprint
       </p>
 
@@ -560,7 +560,7 @@ My research interests lie in the span of machine learning, optimization, and aut
 hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('icml23_lyap_abs');
+hideblock('cdc23_coils_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('icml23_sogd_abs');

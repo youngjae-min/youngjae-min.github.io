@@ -1,6 +1,15 @@
       var course_all = [
         {
           "institution": "MIT",
+          "course number": "18.656",
+          "course name": "Mathematical Statistics: A Non-Asymptotic Approach",
+          "grade": "",
+          "syllabus": "",
+          "field": "Theory/Mathematics",
+          "semester": "Master's"
+        },
+        {
+          "institution": "MIT",
           "course number": "6.7900",
           "course name": "Machine Learning",
           "grade": "A",
@@ -323,7 +332,8 @@
         $("#table2").append("<caption> &#9656; Math. Department</caption>");
         $(tblHd).prependTo("#table2");
         $.each(course_all,function(i,course) {
-          if (course["course number"].slice(0,3) == "MAS" || course["course number"].slice(0,4) == "Math") {
+          if (course["course number"].slice(0,3) == "MAS" || course["course number"].slice(0,4) == "Math"||
+              course["course number"].slice(0,3) == "18.") {
             tblRow =  "<tr class='course_row'><td>" + course["institution"] +
                       "</td><td>" + course["course number"] +
                       "</td><td>" + course["course name"] +
