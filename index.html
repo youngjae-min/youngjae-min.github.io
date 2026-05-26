@@ -116,14 +116,47 @@
       </div>
     </td>
   </tr>
+  
+  <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
+    <td width="33%" valign="center" align="center">
+    <div class ="one">
+      <div class = "two" style="opacity:0">
+        <img src="images/research/hardnetpp_after.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+      </div>
+      <img class="default_image" src="images/research/hardnetpp.png" alt="sym" width="90%" style="padding:2px;border-radius:15px">
+    </div>
+    
+    </td>
+    <td width="67%" valign="top">
+      <p>
+      <heading id="HARDNETPP">HardNet++: Nonlinear Constraint Enforcement in Neural Networks</heading><br>
+      Andrea Goertzen, Kaveh Alim, <b>Youngjae Min</b>, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
+      preprint
+      </p>
+
+      
+      <div class="paper" id="hardnetpp">
+      <a href="https://arxiv.org/pdf/2604.19669.pdf" target="_blank">arXiv</a> |
+      <a href="javascript:toggleblock('hardnetpp_abs')">abstract</a><!--
+      <a shape="rect" href="javascript:togglebib('hardnet')" class="togglebib">bibtex</a>-->
+
+      <p align="justify"> <i id="hardnetpp_abs">Enforcing constraint satisfaction in neural network outputs is critical for safety, reliability, and physical fidelity in many control and decision-making applications. While soft-constrained methods penalize constraint violations during training, they do not guarantee constraint adherence during inference. Other approaches guarantee constraint satisfaction via a projection layer, but often rely on the existence of a tractable projection onto the feasible set, limiting their utility in more general problem settings. Many real-world problems of interest are nonlinear and lack the special structure admitting a tractable projection, motivating the development of methods that can enforce general nonlinear constraints. To this end, we introduce HardNet++, a constraint-satisfaction method that enforces linear and nonlinear equality and inequality constraints. Our approach iteratively adjusts the network output via damped local linearizations of the constraints. Each iteration is differentiable, admitting an end-to-end training framework, where the constraint satisfaction layer is active during training. We show that under certain regularity conditions, this procedure enforces nonlinear constraint satisfaction to arbitrary tolerance. Finally, we demonstrate tight constraint adherence without loss of optimality in a learning-for-optimization context, where we apply this method to a nonlinear model predictive control problem.</i></p>
+
+<!--
+<pre xml:space="preserve">
+</pre>
+-->
+      </div>
+    </td>
+  </tr>
 
   <tr onmouseout="hide_new(this)" onmouseover="show_new(this)">
     <td width="33%" valign="center" align="center">
     <div class ="one">
       <div class = "two" style="opacity:0">
-        <img src="images/default.png" alt="TBD" width="90%" style="padding:2px;border-radius:15px">
+        <img src="images/research/holo_after.png" alt="TBD" width="90%" style="padding:2px;border-radius:15px">
       </div>
-      <img class="default_image" src="images/default.png" alt="TBD" width="90%" style="padding:2px;border-radius:15px">
+      <img class="default_image" src="images/research/holo.png" alt="TBD" width="90%" style="padding:2px;border-radius:15px">
     </div>
     
     </td>
@@ -161,17 +194,17 @@
     </td>
     <td width="67%" valign="top">
       <p>
-      <heading id="SKETCHOGD">SketchOGD: Memory-Efficient Continual Learning</heading><br>
-      <b>Youngjae Min</b>, Benjamin Wright, <a href="https://jeremybernste.in/" target="_blank">Jeremy Bernstein</a>, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
+      <heading id="ORFIT">ORFit: Efficient One-Pass Learning for Overparameterized Models</heading><br>
+      <b>Youngjae Min</b>, Namhoon Cho, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
       preprint
       </p>
 
-      <div class="paper" id="sketchogd">
-      <a href="https://arxiv.org/pdf/2305.16424.pdf" target="_blank">arXiv</a> |
-      <a href="javascript:toggleblock('sketchogd_abs')">abstract</a><!--
-      <a shape="rect" href="javascript:togglebib('sketchogd')" class="togglebib">bibtex</a>-->
+      <div class="paper" id="orfit">
+      <!-- <a href="https://arxiv.org/pdf/2305.16424.pdf" target="_blank">arXiv</a> | -->
+      <!-- <a href="javascript:toggleblock('orfit_abs')">abstract</a> -->
+      <!-- <a shape="rect" href="javascript:togglebib('orfit')" class="togglebib">bibtex</a>-->
 
-      <p align="justify"> <i id="sketchogd_abs">When machine learning models are trained continually on a sequence of tasks, they are liable to forget what they learnt at the start of training---a phenomenon known as catastrophic forgetting. A simple and effective solution to catastrophic forgetting is orthogonal gradient descent (OGD). OGD projects weight updates into the orthogonal complement of the subspace spanned by prior model gradients. However, as the memory cost of storing prior model gradients grows with the runtime of the algorithm, OGD is ill-suited to continual learning over arbitrarily long time horizons. To address this problem, this paper proposes SketchOGD. SketchOGD leverages matrix sketching techniques to approximate the history of model gradients by a matrix of a fixed, user-determined size. We provide theoretical guarantees on the approximation error of the relevant sketches under a novel metric suited to the downstream task of OGD. Experimentally, we find that SketchOGD outperforms the current variants of OGD given a fixed memory budget.</i></p>
+      <!-- <p align="justify"> <i id="orfit_abs">When machine learning models are trained continually on a sequence of tasks, they are liable to forget what they learnt at the start of training---a phenomenon known as catastrophic forgetting. A simple and effective solution to catastrophic forgetting is orthogonal gradient descent (OGD). OGD projects weight updates into the orthogonal complement of the subspace spanned by prior model gradients. However, as the memory cost of storing prior model gradients grows with the runtime of the algorithm, OGD is ill-suited to continual learning over arbitrarily long time horizons. To address this problem, this paper proposes SketchOGD. SketchOGD leverages matrix sketching techniques to approximate the history of model gradients by a matrix of a fixed, user-determined size. We provide theoretical guarantees on the approximation error of the relevant sketches under a novel metric suited to the downstream task of OGD. Experimentally, we find that SketchOGD outperforms the current variants of OGD given a fixed memory budget.</i></p> -->
 
 <!--
 <pre xml:space="preserve">
@@ -193,17 +226,17 @@
     </td>
     <td width="67%" valign="top">
       <p>
-      <heading id="ORFIT">ORFit: Efficient One-Pass Learning for Overparameterized Models</heading><br>
-      <b>Youngjae Min</b>, Namhoon Cho, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
-      preprint
+      <heading id="SKETCHOGD">SketchOGD: Memory-Efficient Continual Learning</heading><br>
+      <b>Youngjae Min</b>, Benjamin Wright, <a href="https://jeremybernste.in/" target="_blank">Jeremy Bernstein</a>, <a href="https://azizan.mit.edu/index.html" target="_blank">Navid Azizan</a><br>
+      IEEE TSP, 2026
       </p>
 
-      <div class="paper" id="orfit">
-      <!-- <a href="https://arxiv.org/pdf/2305.16424.pdf" target="_blank">arXiv</a> | -->
-      <!-- <a href="javascript:toggleblock('orfit_abs')">abstract</a> -->
-      <!-- <a shape="rect" href="javascript:togglebib('orfit')" class="togglebib">bibtex</a>-->
+      <div class="paper" id="sketchogd">
+      <a href="https://arxiv.org/pdf/2305.16424.pdf" target="_blank">arXiv</a> |
+      <a href="javascript:toggleblock('sketchogd_abs')">abstract</a><!--
+      <a shape="rect" href="javascript:togglebib('sketchogd')" class="togglebib">bibtex</a>-->
 
-      <!-- <p align="justify"> <i id="orfit_abs">When machine learning models are trained continually on a sequence of tasks, they are liable to forget what they learnt at the start of training---a phenomenon known as catastrophic forgetting. A simple and effective solution to catastrophic forgetting is orthogonal gradient descent (OGD). OGD projects weight updates into the orthogonal complement of the subspace spanned by prior model gradients. However, as the memory cost of storing prior model gradients grows with the runtime of the algorithm, OGD is ill-suited to continual learning over arbitrarily long time horizons. To address this problem, this paper proposes SketchOGD. SketchOGD leverages matrix sketching techniques to approximate the history of model gradients by a matrix of a fixed, user-determined size. We provide theoretical guarantees on the approximation error of the relevant sketches under a novel metric suited to the downstream task of OGD. Experimentally, we find that SketchOGD outperforms the current variants of OGD given a fixed memory budget.</i></p> -->
+      <p align="justify"> <i id="sketchogd_abs">When machine learning models are trained continually on a sequence of tasks, they are liable to forget what they learnt at the start of training---a phenomenon known as catastrophic forgetting. A simple and effective solution to catastrophic forgetting is orthogonal gradient descent (OGD). OGD projects weight updates into the orthogonal complement of the subspace spanned by prior model gradients. However, as the memory cost of storing prior model gradients grows with the runtime of the algorithm, OGD is ill-suited to continual learning over arbitrarily long time horizons. To address this problem, this paper proposes SketchOGD. SketchOGD leverages matrix sketching techniques to approximate the history of model gradients by a matrix of a fixed, user-determined size. We provide theoretical guarantees on the approximation error of the relevant sketches under a novel metric suited to the downstream task of OGD. Experimentally, we find that SketchOGD outperforms the current variants of OGD given a fixed memory budget.</i></p>
 
 <!--
 <pre xml:space="preserve">
@@ -694,6 +727,9 @@ hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('hardnet_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('hardnetpp_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('sketchogd_abs');
